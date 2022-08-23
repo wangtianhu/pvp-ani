@@ -1,0 +1,118 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+header,
+hgroup,
+nav,
+section,
+article,
+aside,
+footer,
+figure,
+figcaption,
+menu,
+button {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 100%;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption,
+th {
+  text-align: left;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+li {
+  list-style: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+body {
+  color: #000;
+  font-family: 'microsoft yahei', 'Helvetica Neue', Helvetica, STHeiTi,
+    sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  position: relative;
+}
+
+input,
+button,
+textarea,
+select,
+optgroup,
+option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  border-radius: 0;
+  //-webkit-appearance: none; //慎用,去除系统默认appearance的样式,常用于IOS下移除原生样式
+}
+
+a {
+  -webkit-touch-callout: none; //禁止长按链接与图片弹出菜单
+  text-decoration: none;
+}
+
+*:focus {
+  outline: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-text-size-adjust: 100%;
+
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+}
